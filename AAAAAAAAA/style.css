@@ -1,75 +1,100 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
+    body {
+        font-family: Arial, sans-serif;
+        
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+    }
 
-header {
-    background-color: rgb(0, 85, 255);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
-}
 
-.grupo {
-    background-color: white;
-    width: 70%;
-    margin: 20px auto;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
+    header {
+        background-color: #000096;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        
+    }
 
-.grupo h2 {
-    color: blue;
-}
+    .grupo {    
+        background-color: rgb(241, 241, 241);
+        width: 70%;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
 
-.grupo ul {
-    list-style: none;
-    padding: 0;
-}
+    .grupo h2 {
+        color: blue;
+    }
 
-.grupo li {
+    .grupo ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .grupo li {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        
+    }
+
+    th {
+        background-color: rgb(0, 85, 255);
+        color: white;
+        
+    }
+
+    th, td {
+        border: 1px solid #c2c2c2;
+        padding: 10px;
+        text-align: center;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dfdfdf;
+        
+    }
+
+    .botao {
+        background-color: rgb(0, 85, 255);
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 13px;
+        display: inline-block;
+        margin-left: 20px;
+        width: 75px;
+        margin: 20px auto;
+
+    }
+
+    .botao:hover {
+        background-color:rgb(0, 85, 255);
+    }
+
+    .grupo li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     padding: 8px;
     border-bottom: 1px solid #ddd;
 }
 
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    
+.bandeira {
+    width: 40px;
+    height: 28px;
+    object-fit: cover;
 }
 
-th {
-    background-color: rgb(0, 85, 255);
-    color: white;
-    
-}
-
-th, td {
-    border: 1px solid #c2c2c2;
-    padding: 10px;
+.grupo2{
     text-align: center;
-}
-
-tr:nth-child(even) {
-    background-color: #dfdfdf;
-    
-}
-
-.botao {
-    background-color: rgb(0, 85, 255);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    text-align: center;
-}
-
-.botao:hover {
-    background-color:rgb(0, 85, 255);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
